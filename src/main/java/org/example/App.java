@@ -24,7 +24,6 @@ public class App
     }
 
     public static String SolveBrackets(String sequence){
-        StringBuilder sb = new StringBuilder(sequence);
         ArrayList<Character>  openBrackets = new ArrayList<>(List.of('(', '[', '{'));
         ArrayList<Character>  closedBrackets = new ArrayList<>(List.of(')', ']', '}'));
         Stack<Character> stack = new Stack<>();
